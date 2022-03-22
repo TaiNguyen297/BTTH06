@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sử dụng đối tượng Array</title>
+</head>
+<body>
+    <form style="text-align: center;">
+        <table border="3">
+            <tr>
+                <caption align="top" style="font-weight: 900; font-size: 30px; color: blue">Thao tác trên mảng</caption>
+            </tr>
+
+            <tr>
+                <td style="width: 90px"><button id="createArr">Tạo mảng</button></td>
+                <td><label id="ShowArray"></label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" id="LastArr"style="color:orange">Giá trị mảng sau khi xử lý</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="color:blueviolet"><input type="radio" name="sort" id="ascsort" onclick="Sort()">Sắp xếp tăng dần
+                                                           <input type="radio" name="sort" id="descsort" onclick="Reverse()">Sắp xếp giảm dần
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="color:blueviolet">Thêm vào vị trí <input type="text" id="index" style="width: 70px">
+                    Giá trị <input type="text" id="value" style="width: 70px;"> <button id="addValue">Thêm</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <script src="random.js"></script>
+</body>
+</html>
